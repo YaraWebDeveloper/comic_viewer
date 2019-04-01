@@ -1,5 +1,5 @@
 /* Using enviroment */
-global.enviroment = 'dev';
+global.enviroment = 'prod';
 
 /* Using to export constants */
 const conf = {
@@ -18,13 +18,13 @@ conf['dev']['mediaApi'] = 'http://localhost:3100/dist/';
 conf['dev']['keyCrypto'] = '';
 
 
-/* Enviroment on development */
-conf['prod']['base_url'] = 'https://test-resuelve.herokuapp.com/';
+/* Enviroment on production */
+conf['prod']['base_url'] = 'https://comic-viewer-yara.herokuapp.com/';
 conf['prod']['port'] = '';
-conf['prod']['apiServer'] = 'https://ghibliapi.herokuapp.com/';
+conf['prod']['apiServer'] = 'https://xkcd.now.sh/';
 conf['prod']['fileName'] = 'all_dist';
 conf['prod']['minify'] = true;
-conf['prod']['mediaApi'] = 'https://test-resuelve.herokuapp.com/dist/';
+conf['prod']['mediaApi'] = 'https://comic-viewer-yara.herokuapp.com/dist/';
 conf['prod']['keyCrypto'] = '';
 
 
