@@ -32,7 +32,6 @@ class Rating extends Component {
           <i className="fa fa-star"></i>
         </span>
       )
-      console.log('iterate ' + i);
     }
 
     // retrun
