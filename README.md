@@ -8,7 +8,7 @@ Basado en [React Ethereal](https://github.com/YaraWebDeveloper/react_ethereal)
 2. Entrar en la carpeta `$ cd comic_view`
 3. Ejecutar [npm](https://npmjs.com) `$ npm i`
 4. Si hay problemas de compilación. `$ npm i --only=dev`
-5. Editar archivo de configuración con puerto, entorno, base_url y demás setups `app/conf/conf.js`
+5. Editar archivo de configuración con puerto, cambiar la variabel env a 'dev', base_url y demás setups `app/conf/conf.js`
 6. Ejecutar `$ npm start`
 
 ### Descripción
