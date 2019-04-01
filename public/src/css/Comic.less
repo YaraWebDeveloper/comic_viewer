@@ -1,0 +1,112 @@
+body,
+html {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+#main-header {
+  position: relative;
+  background-image: url("../img/test/logo.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  .logo-item {
+    &:hover {
+      background-color: transparent;
+    }
+
+    .__img-logo {
+      height: 82px;
+      max-height: initial;
+      width: auto;
+    }
+  }
+}
+
+.mainVisorContainer {
+  padding: 0;
+
+  .titleComic {
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+  .visorContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    img {
+      position: relative;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0 auto;
+      display: block;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ececec;
+    }
+  }
+}
+
+.footerButtons {
+  .contentButton {
+    padding: 25px;
+
+    button {
+      display: block;
+      margin: 0 auto;
+      font-size: 20px;
+      background-color: #005fd1;
+      color: #fff;
+      border-radius: 10px;
+      height: auto;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.container-stars {
+  position: relative;
+  padding: 25px;
+
+  .rating-stars {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & > .item-stars {
+      .animate();
+      font-size: 35px;
+      cursor: pointer;
+      margin-right: 5px;
+
+      &.checked {
+        color: #fb9537;
+      }
+    }
+
+    &:hover > span {
+      color: #fbbf40!important;
+    }
+
+    & > span:hover ~ span {
+      color: #4a4a4a!important;
+    }
+
+    .actual-rating {
+      display: inline-block;
+      font-size: 25px;
+    }
+  }
+}
