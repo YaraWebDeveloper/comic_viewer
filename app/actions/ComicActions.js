@@ -5,7 +5,7 @@ import {
 } from '../constants/ActionTypes';
 
 /* send api */
-import comicApi from '../api/comicApi';
+import comicApi from '../api/ComicApi';
 
 var comicObj = new comicApi();
 // send actions
